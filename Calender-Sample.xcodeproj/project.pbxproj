@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3FBCB2022700131000992ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCB2012700131000992ED0 /* AppDelegate.swift */; };
-		3FBCB2042700131000992ED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCB2032700131000992ED0 /* SceneDelegate.swift */; };
 		3FBCB2062700131000992ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCB2052700131000992ED0 /* ViewController.swift */; };
-		3FBCB2092700131000992ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCB2072700131000992ED0 /* Main.storyboard */; };
 		3FBCB20B2700131100992ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCB20A2700131100992ED0 /* Assets.xcassets */; };
 		3FBCB20E2700131100992ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCB20C2700131100992ED0 /* LaunchScreen.storyboard */; };
+		3FBCB21627001EE300992ED0 /* CalenderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCB21527001EE300992ED0 /* CalenderViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FBCB1FE2700130F00992ED0 /* Calender-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calender-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBCB2012700131000992ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FBCB2032700131000992ED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3FBCB2052700131000992ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FBCB2082700131000992ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBCB20A2700131100992ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBCB20D2700131100992ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBCB20F2700131100992ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBCB21527001EE300992ED0 /* CalenderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalenderViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				3FBCB2012700131000992ED0 /* AppDelegate.swift */,
-				3FBCB2032700131000992ED0 /* SceneDelegate.swift */,
 				3FBCB2052700131000992ED0 /* ViewController.swift */,
-				3FBCB2072700131000992ED0 /* Main.storyboard */,
+				3FBCB21527001EE300992ED0 /* CalenderViewController.storyboard */,
 				3FBCB20A2700131100992ED0 /* Assets.xcassets */,
 				3FBCB20C2700131100992ED0 /* LaunchScreen.storyboard */,
 				3FBCB20F2700131100992ED0 /* Info.plist */,
@@ -127,7 +124,7 @@
 			files = (
 				3FBCB20E2700131100992ED0 /* LaunchScreen.storyboard in Resources */,
 				3FBCB20B2700131100992ED0 /* Assets.xcassets in Resources */,
-				3FBCB2092700131000992ED0 /* Main.storyboard in Resources */,
+				3FBCB21627001EE300992ED0 /* CalenderViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +137,12 @@
 			files = (
 				3FBCB2062700131000992ED0 /* ViewController.swift in Sources */,
 				3FBCB2022700131000992ED0 /* AppDelegate.swift in Sources */,
-				3FBCB2042700131000992ED0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FBCB2072700131000992ED0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FBCB2082700131000992ED0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FBCB20C2700131100992ED0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +282,7 @@
 				INFOPLIST_FILE = "Calender-Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +310,7 @@
 				INFOPLIST_FILE = "Calender-Sample/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
